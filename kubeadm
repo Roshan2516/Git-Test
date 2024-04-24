@@ -36,3 +36,5 @@
 	
 	kubeadm join 192.168.29.118:6443 --token 4tcjsl.0ssmw60eaq3qcbf0 \
 	--discovery-token-ca-cert-hash sha256:2476b4d6395f4fd40ea0dd38a8c67b9bf1be79a81e800e9945c8635b204b92b0
+
+	kubeadm join 192.168.29.118:6443 --token dlned4.ssievj1y6unj4v8c --discovery-token-ca-cert-hash sha256:2476b4d6395f4fd40ea0dd38a8c67b9bf1be79a81e800e9945c8635b204b92b0 
