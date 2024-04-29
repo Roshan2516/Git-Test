@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    fruit: orange
+  name: p2
+spec:
+  containers:
+  - image: nginx:1.14.2
+    name: c1
+    resources: {}
